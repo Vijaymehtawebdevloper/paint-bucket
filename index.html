@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paint Project</title>
+</head>
+<body>
+    <div id="colors">
+        <button id="black" onclick="changeColor('black')" ontuchstart = "changeolor('black')"></button>
+        <button id="red" onclick="changeColor('red')" ontuchstart = "changeolor('red')"></button>
+        <button id="green" onclick="changeColor('green')" ontuchstart = "changeolor('green')"></button>
+        <button id="blue" onclick="changeColor('blue')" ontuchstart = "changeolor('blue')"></button>
+        <button id="orange" onclick="changeColor('orange')" ontuchstart = "changeolor('orange')"></button>
+        <button id="pink" onclick="changeColor('pink')" ontuchstart = "changeolor('pink')"></button>
+    </div>
+    <canvas id="canvas" width="500" height="300"></canvas>
+    <div>
+        <button onclick = "clearCanvas()">Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
